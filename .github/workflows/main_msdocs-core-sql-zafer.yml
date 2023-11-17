@@ -57,6 +57,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'msdocs-core-sql-zafer'
-          slot-name: 'Production'
+          slot-name: 'staging'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CE6700B5E46348A383CE0A3B6D7433A4 }}
